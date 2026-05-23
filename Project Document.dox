@@ -1,0 +1,84 @@
+# PROJECT DOCUMENT
+## Hangman Game using Python
+
+### 1. Project Title
+**Hangman Game using Python**
+
+---
+
+### 2. Abstract
+The Hangman Game is a console-based word guessing game developed using Python. In this game, the computer randomly selects a word from a predefined list, and the player has to guess the word one letter at a time. The player is given limited attempts to guess incorrect letters. The game continues until the player successfully guesses the word or runs out of attempts. This project helps in understanding Python fundamentals, logical thinking, and user interaction handling.
+
+---
+
+### 3. Problem Statement
+Develop a Python-based Hangman Game that allows users to guess a hidden word by entering one letter at a time. The program should validate inputs, track correct and incorrect guesses, and determine the game result based on limited attempts.
+
+---
+
+### 4. Objectives
+- To build an interactive word guessing game.
+- To implement Python programming concepts practically.
+- To improve logical reasoning and problem-solving skills.
+- To create a fun command-line gaming experience.
+
+---
+
+### 5. Scope of Project
+This project is designed for educational purposes and beginner-level Python practice. It demonstrates game logic implementation and can be further enhanced with advanced features such as GUI, difficulty levels, or multiplayer mode.
+
+---
+
+### 6. Technologies Used
+- **Programming Language:** Python
+- **Modules Used:** Random
+- **Concepts Used:**
+  - Functions
+  - Loops
+  - Conditional Statements
+  - Lists
+  - Strings
+  - User Input Handling
+
+---
+
+### 7. System Requirements
+**Hardware Requirements:**
+- Computer/Laptop
+- Minimum 2GB RAM
+
+**Software Requirements:**
+- Python 3.x
+- VS Code / PyCharm / IDLE
+
+---
+
+### 8. Methodology
+1. Create a predefined list of words.
+2. Randomly select one word using Python's random module.
+3. Display blank spaces for hidden letters.
+4. Accept user input letter by letter.
+5. Check whether the guessed letter exists in the word.
+6. Update the displayed word if correct.
+7. Reduce attempts if incorrect.
+8. End game when the word is guessed or attempts finish.
+
+---
+
+### 9. Algorithm
+Step 1: Start  
+Step 2: Import random module  
+Step 3: Create word list  
+Step 4: Randomly select a word  
+Step 5: Initialize attempts and guessed letters  
+Step 6: Display hidden word  
+Step 7: Take user input  
+Step 8: Validate input  
+Step 9: Check guessed letter  
+Step 10: Update game status  
+Step 11: Repeat until win/loss  
+Step 12: End  
+
+---
+
+### 10. Flowchart
